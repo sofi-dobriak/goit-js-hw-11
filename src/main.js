@@ -11,6 +11,7 @@ refs.searchForm.addEventListener('submit', e => {
   const userValue = e.target.elements['search-images'].value.trim();
 
   showLoader();
+  refs.gallery.innerHTML = '';
 
   searchImages(userValue)
     .then(data => {

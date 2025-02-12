@@ -55,9 +55,13 @@ const largeImages = new SimpleLightbox('.gallery a', {
 });
 
 export function renderImages(images) {
+  showLoader();
+
   const markup = imagesTemplate(images);
   refs.gallery.innerHTML = markup;
   largeImages.refresh();
+
+  hideLoader();
 }
 
 export function showLoader() {
