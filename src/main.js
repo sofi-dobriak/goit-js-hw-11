@@ -3,12 +3,14 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 import { refs } from './js/refs';
 import searchImages from './js/pixabay-api';
-import { renderImages } from './js/render-functions';
+import { renderImages, showLoader, hideLoader } from './js/render-functions';
 
 refs.searchForm.addEventListener('submit', e => {
   e.preventDefault();
 
   const userValue = e.target.elements['search-images'].value.trim();
+
+  showLoader();
 
   searchImages(userValue)
     .then(data => {
@@ -18,12 +20,15 @@ refs.searchForm.addEventListener('submit', e => {
           message:
             'Sorry, there are no images matching your search query. Please try again!',
         });
+        hideLoader();
       } else {
         renderImages(data.hits);
+        hideLoader();
       }
     })
     .catch(error => {
       console.log(error);
+      hideLoader();
     });
 
   e.target.reset();

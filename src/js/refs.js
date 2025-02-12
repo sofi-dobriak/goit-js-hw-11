@@ -1,5 +1,6 @@
 export const refs = {
   searchForm: document.querySelector('.js-search-form'),
   submitButton: document.querySelector('.js-submit-button'),
-  imagesContainer: document.querySelector('.js-images-container'),
+  gallery: document.querySelector('.js-images-container'),
+  loader: document.querySelector('.loader'),
 };
