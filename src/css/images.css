@@ -12,6 +12,7 @@
     flex-basis: calc((100% - 40px) / 3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .image-item:hover {
@@ -23,9 +24,11 @@
     width: 100%;
     max-width: 360px;
     height: 240px;
+    border-radius: 8px;
 }
 
 .stat-list {
+    border-radius: 8px;
     border-bottom: 1px solid #808080;
     border-left: 1px solid #808080;
     border-right: 1px solid #808080;

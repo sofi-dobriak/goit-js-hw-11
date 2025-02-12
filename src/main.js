@@ -29,7 +29,6 @@ refs.searchForm.addEventListener('submit', e => {
     })
     .catch(error => {
       console.log(error);
-      hideLoader();
     });
 
   e.target.reset();
