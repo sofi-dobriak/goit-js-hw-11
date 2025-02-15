@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="planets-body">
+
+    <main>
+        <div class="container">
+            <a class="go-back planets" href="../add-practice.html">Go Back</a>
+
+            <div class="planets-forms-container">
+                <form class="planets-form js-create-form">
+                    <input class="planets-form-input" type="text" name="id" placeholder="ID" required disabled>
+                    <input class="planets-form-input" type="text" name="image" placeholder="URL image" required>
+                    <input class="planets-form-input" type="text" name="structure" placeholder="URL structure" required>
+                    <input class="planets-form-input" type="text" name="title" placeholder="Title" required>
+                    <input class="planets-form-input" type="text" name="diameter" placeholder="Diameter" required>
+                    <input class="planets-form-input" type="text" name="distance" placeholder="Distance from Sun (km)"
+                        required>
+                    <input class="planets-form-input" type="text" name="orbital" placeholder="Orbital period (days)"
+                        required>
+                    <textarea class="planets-form-input textarea" type="text" name="description"
+                        placeholder="Description" required></textarea>
+                    <button class="planets-button-submit js-planets-button-submit" type="submit">Create card</button>
+                </form>
+
+                <form class="planets-form js-update-form">
+                    <input class="planets-form-input" type="text" name="id" placeholder="ID" required>
+                    <input class="planets-form-input" type="text" name="image" placeholder="URL image">
+                    <input class="planets-form-input" type="text" name="structure" placeholder="URL structure">
+                    <input class="planets-form-input" type="text" name="title" placeholder="Title">
+                    <input class="planets-form-input" type="text" name="diameter" placeholder="Diameter">
+                    <input class="planets-form-input" type="text" name="distance" placeholder="Distance from Sun (km)">
+                    <input class="planets-form-input" type="text" name="orbital" placeholder="Orbital period (days)">
+                    <textarea class="planets-form-input textarea" type="text" name="description"
+                        placeholder="Description"></textarea>
+                    <button class="planets-button-submit js-planets-button-submit" type="submit">Update card</button>
+                </form>
+
+                <form class="planets-form js-reset-form">
+                    <input class="planets-form-input" type="text" name="id" placeholder="ID" required>
+                    <input class="planets-form-input" type="text" name="image" placeholder="URL image" required>
+                    <input class="planets-form-input" type="text" name="structure" placeholder="URL structure" required>
+                    <input class="planets-form-input" type="text" name="title" placeholder="Title" required>
+                    <input class="planets-form-input" type="text" name="diameter" placeholder="Diameter" required>
+                    <input class="planets-form-input" type="text" name="distance" placeholder="Distance from Sun (km)"
+                        required>
+                    <input class="planets-form-input" type="text" name="orbital" placeholder="Orbital period (days)"
+                        required>
+                    <textarea class="planets-form-input textarea" type="text" name="description"
+                        placeholder="Description" required></textarea>
+                    <button class="planets-button-submit js-planets-button-submit" type="submit">Reset card</button>
+                </form>
+
+                <form class="planets-form js-delete-form">
+                    <input class="planets-form-input" type="text" name="id" placeholder="ID" required>
+                    <button class="planets-button-submit js-planets-button-submit" type="submit">Delete card</button>
+                </form>
+
+            </div>
+
+            <div class="planets-list-container">
+                <ul class="planets-list js-planets-list">
+
+
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script type="module" src="../js/planets/planets-logic.js" defer></script>
+</body>
+
+</html>

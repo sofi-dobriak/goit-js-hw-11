@@ -192,5 +192,16 @@
       "description": "Іs a touching story about a chance to say the most important words before breaking up."
     }
   ],
-  "universe": []
+  "planets": [
+    {
+      "id": "1677",
+      "image": "https://images.pexels.com/photos/355935/pexels-photo-355935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "structure": "https://www.snexplores.org/wp-content/uploads/2023/01/860_earthlayers.jpg",
+      "title": "Earth",
+      "diameter": "12742",
+      "distance": "149,600,000",
+      "orbital": "365.25",
+      "description": "Єдина відома планета з життям, покрита океанами та має атмосферу, придатну для дихання."
+    }
+  ]
 }

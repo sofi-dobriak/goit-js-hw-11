@@ -1,0 +1,144 @@
+/* ========= GENERAL ========= */
+
+.planets-body {
+    font-family: "ABeeZee", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/blue-black-sky-with-stars.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 104vh;
+    color: #fff;
+}
+
+.planets {
+    margin-bottom: 0;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+/* ========= FORM ========= */
+
+.planets-forms-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-bottom: 20px;
+}
+
+.planets-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffffb5;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 244px;
+}
+
+
+.planets-form-input {
+    font-family: "ABeeZee", sans-serif;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(228, 228, 228, 0.6);
+    border-radius: 4px;
+    width: 220px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+.planets-form-input:hover,
+.planets-form-input:focus {
+    outline: none;
+}
+
+.planets-form-input::placeholder {
+    font-family: "ABeeZee", sans-serif;
+    color: #e4e4e4;
+    font-size: 13px;
+    line-height: 1.38462;
+}
+
+.textarea {
+    resize: none;
+}
+
+.planets-button-submit {
+    box-shadow: 0 4px 8px 0 rgba(50, 50, 71, 0.06), 0 4px 4px 0 rgba(50, 50, 71, 0.08);
+    background-color: #6979f8;
+    color: #fff;
+    border: none;
+    width: 220px;
+    padding: 6px;
+    border-radius: 6px;
+
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.planets-button-submit:hover,
+.planets-button-submit:focus {
+    background-color: #9ba6fa;
+}
+
+/* ========= CARDS ========= */
+
+.planets-list-container {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ffffffb5;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.planets-list {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.planets-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffffb5;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 244px;
+    transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.planets-item:hover {
+    box-shadow: 0 0px 20px rgba(149, 102, 243, 0.336);
+    transform: scale(1.02);
+}
+
+.planets-image {
+    margin: 0 auto 12px;
+    object-fit: cover;
+    border-radius: 8px;
+    max-width: 120px;
+    height: auto;
+}
+
+.planets-text-info {
+    font-size: 14px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ffffffb5;
+}
+
+.planets-text-info:last-child {
+    margin-bottom: 0;
+}
+
+.planets-link {
+    border-radius: 8px;
+}
+
+/* ========= SIMPLE LIGHT BOX ========= */
+
+.my-custom-lightbox {
+    background-color: #000000b4;
+}
