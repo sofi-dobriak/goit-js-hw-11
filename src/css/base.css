@@ -9,3 +9,14 @@ body {
 .hidden {
     display: none;
 }
+
+.go-back {
+    color: darkblue;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.go-back:hover,
+.go-back:focus {
+    text-decoration: underline;
+}

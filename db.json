@@ -1,0 +1,74 @@
+{
+  "cars": [
+    {
+      "id": "04a5",
+      "image": "https://surl.li/wttzye",
+      "brand": "BMW",
+      "model": "M3",
+      "color": "Blue"
+    },
+    {
+      "id": "d65d",
+      "image": "https://surl.li/jomzkm",
+      "brand": "Porsche",
+      "model": "911 GT3",
+      "color": "Yellow"
+    },
+    {
+      "id": "868b",
+      "image": "https://surl.li/xdtvpz",
+      "brand": "Ford",
+      "model": "Mustang GT",
+      "color": "Orange"
+    },
+    {
+      "id": "32dd",
+      "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/16q1/665019/2015-mitsubishi-lancer-evolution-final-edition-test-review-car-and-driver-photo-667032-s-original.jpg",
+      "brand": "Mitsubishi",
+      "model": "Evo X",
+      "color": "White"
+    },
+    {
+      "id": "f018",
+      "image": "https://surl.li/mmmxcg",
+      "brand": "Chevrolet",
+      "model": "Corvette",
+      "color": "Green"
+    },
+    {
+      "id": "0d8e",
+      "image": "https://surl.li/uhlfhd",
+      "brand": "Nissan",
+      "model": "370Z",
+      "color": "Purple"
+    },
+    {
+      "id": "9724",
+      "image": "https://surl.li/dlvpat",
+      "brand": "Toyota",
+      "model": "Supra",
+      "color": "Silver"
+    },
+    {
+      "id": "c908",
+      "image": "https://surl.li/bwnucc",
+      "brand": "Jaguar",
+      "model": "F-Type",
+      "color": "Blue"
+    },
+    {
+      "id": "95fb",
+      "image": "https://surl.li/wbfymr",
+      "brand": "Lamborghini",
+      "model": "Huracan",
+      "color": "Yellow"
+    },
+    {
+      "id": "8861",
+      "image": "https://surl.li/quyxxf",
+      "brand": "Ferrari",
+      "model": "488 GTB",
+      "color": "Red"
+    }
+  ]
+}

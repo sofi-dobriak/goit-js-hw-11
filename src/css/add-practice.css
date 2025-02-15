@@ -1,0 +1,29 @@
+.add-practice-container {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.add-practice-fieldset {
+    width: 100%;
+    max-width: 500px;
+}
+
+.add-practice-legend {
+    margin-bottom: 10px;
+}
+
+.add-practice-item {
+    margin-bottom: 10px;
+}
+
+.add-practice-item:last-child {
+    margin-bottom: 0;
+}
+
+.add-practice-link {
+    color: darkblue
+}
+
+.add-practice-link:hover {
+    text-decoration: underline;
+}
