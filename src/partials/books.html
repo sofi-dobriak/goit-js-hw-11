@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="books-body">
+
+    <main>
+        <div class="container">
+            <a class="go-back books" href="../add-practice.html">Go Back</a>
+
+            <div class="books-forms-container">
+                <form class="books-form js-create-form">
+                    <input class="books-form-input" type="text" name="id" placeholder="ID" required disabled>
+                    <input class="books-form-input" type="text" name="image" placeholder="URL image" required>
+                    <input class="books-form-input" type="text" name="title" placeholder="Title" required>
+                    <input class="books-form-input" type="text" name="author" placeholder="Author" required>
+                    <textarea class="books-form-input textarea" type="text" name="description" placeholder="Description"
+                        required></textarea>
+                    <button class="books-button-submit js-books-button-submit" type="submit">Create Book</button>
+                </form>
+
+                <form class="books-form js-update-form">
+                    <input class="books-form-input" type="text" name="id" placeholder="ID" required>
+                    <input class="books-form-input" type="text" name="image" placeholder="URL image">
+                    <input class="books-form-input" type="text" name="title" placeholder="Title">
+                    <input class="books-form-input" type="text" name="author" placeholder="Author">
+                    <textarea class="books-form-input textarea" type="text" name="description"
+                        placeholder="Description"></textarea>
+                    <button class="books-button-submit js-books-button-submit" type="submit">Update Book</button>
+                </form>
+
+                <form class="books-form js-reset-form">
+                    <input class="books-form-input" type="text" name="id" placeholder="ID" required>
+                    <input class="books-form-input" type="text" name="image" placeholder="URL image" required>
+                    <input class="books-form-input" type="text" name="title" placeholder="Title" required>
+                    <input class="books-form-input" type="text" name="author" placeholder="Author" required>
+                    <textarea class="books-form-input textarea" type="text" name="description" placeholder="Description"
+                        required></textarea>
+                    <button class="books-button-submit js-books-button-submit" type="submit">Reset Book</button>
+                </form>
+
+                <form class="books-form js-delete-form">
+                    <input class="books-form-input" type="text" name="id" placeholder="ID" required>
+                    <button class="books-button-submit js-books-button-submit" type="submit">Delete Book</button>
+                </form>
+
+            </div>
+
+            <div class="book-list-container">
+                <ul class="books-list js-books-list"></ul>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script type="module" src="../js/books/books-logic.js" defer></script>
+</body>
+
+</html>

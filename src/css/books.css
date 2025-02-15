@@ -1,0 +1,139 @@
+/* ======== BOOKS GENERAL ======== */
+
+:root {
+    --main-color: #b99674;
+    --button-bg-color: #94785d;
+    --button-bg-color-hover: #a78768;
+    --input-bg-color-hover: #a78768;
+    --form-bg-color: #fff;
+
+    --placeholder-color: #a7a7a7;
+    --light-text-color: #fff;
+    --dark-text-color: #413529;
+}
+
+.books-body {
+    background-color: var(--main-color);
+    font-family: "Encode Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.39;
+    color: var(--dark-text-color);
+}
+
+.go-back.books {
+    margin-bottom: 0;
+}
+
+/* ======== BOOKS FORM ======== */
+
+.books-forms-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.books-form {
+    border-radius: 15px;
+    padding: 24px 30px;
+    max-width: 244px;
+    background-color: var(--form-bg-color);
+}
+
+.books-form-input {
+    border: 0.50px solid #b6b6b6;
+    padding: 10px;
+    width: 100%;
+    max-width: 384px;
+    font-family: "Inter";
+    margin-bottom: 14px;
+}
+
+.books-form-input::placeholder,
+.books-form-input.textarea::placeholder {
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--placeholder-color);
+}
+
+.books-form-input:hover,
+.books-form-input:focus {
+    outline: none;
+}
+
+.textarea {
+    resize: none;
+}
+
+.books-button-submit {
+    padding: 10px;
+    background-color: var(--button-bg-color);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 184px;
+
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: var(--light-text-color);
+
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.books-button-submit:hover,
+.books-button-submit:focus {
+    background-color: var(--button-bg-color-hover);
+}
+
+/* ======== BOOKS LIST ======== */
+
+.book-list-container {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.books-list {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.books-item {
+    padding: 10px;
+    background-color: var(--form-bg-color);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 244px;
+    height: 390px;
+}
+
+.book-image {
+    display: block;
+    margin: 0 auto 12px;
+    object-fit: cover;
+    max-width: 130px;
+    height: auto;
+    border: 1px solid var(--dark-text-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.book-text-info {
+    font-size: 14px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--dark-text-color);
+}

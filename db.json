@@ -69,6 +69,128 @@
       "brand": "Ferrari",
       "model": "488 GTB",
       "color": "Red"
+    },
+    {
+      "id": "36b9",
+      "image": "https://scene7.toyota.eu/is/image/toyotaeurope/etalon_v2-min-1?wid=1280&fit=fit,1&ts=1708356957662&resMode=sharp2&op_usm=1.75,0.3,2,0",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "color": "Black"
+    },
+    {
+      "id": "9912",
+      "image": "https://images.hgmsites.net/hug/2025-honda-civic-sdn_100937008_h.webp",
+      "brand": "Honda",
+      "model": "Civic",
+      "color": "Gray"
     }
-  ]
+  ],
+  "books": [
+    {
+      "id": "a8a6",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSBHI02vDp-8x4mbaGeARfwT8gIwLiS5LBJ5qmcRRrEad05tMsyBp8weslIerzq9DaIdICYaPDzmfaUsNDHTKcxEq-Ifrr8qH0xSEhvXFE&usqp=CAE",
+      "title": "The Little Paris Bookshop",
+      "author": "Nina George",
+      "description": "A magical story about a book barge that heals souls with books."
+    },
+    {
+      "id": "88d1",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRr2k8l-oe9zrqJZeqHHmvPUMngqZQeOSWpRabrHftJRs1eWw64hwBiPeS0HpnCh3QVR9KjSmyIqVxzrmPTl3bor87hk3zwzXiXxvXdBH4",
+      "title": "Anne of Green Gables",
+      "author": "L. M. Montgomery",
+      "description": "The charming story of an imaginative orphan finding a home."
+    },
+    {
+      "id": "ebb2",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTdcQ6IKXHpsHVpLktPwYSGM2FOgW9KcHGcxbU3isfvb4RKFXL3gEfxVOmmP2ZFFbTE0dluZgYj7Mbl6610YqrjslqH2Vv34QXH3eSa04o&usqp=CAE",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A heartwarming and witty romance about love and societal expectations."
+    },
+    {
+      "id": "0fc3",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "description": "A magical adventure filled with friendship, courage, and discovery."
+    },
+    {
+      "id": "b085",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR3k6srTojtgZK7foYSq18gRmFdc6ZximA3dN0YFRoOT9XEWbdXMjuvRyvLtpTanq0KgS0dtn0UvLXFA92fAE9vte8nZoqs_a0TB3O-_Hb8yYw8eLXODbdD1g&usqp=CAE",
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "description": "A story of growth and healing through the magic of nature."
+    },
+    {
+      "id": "164e",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ5u0iW-f9wGtyHU5L4GivHfzVre2gq_GcUMJ1MOb08TZHdBUmqL_3JEjQvMHYF6aQrPWySW5PFBrT9RKZw4pVEiYAID5lL5XVgWhWHHioW7sglzZmECkyM&usqp=CAE",
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "description": "A touching coming-of-age novel about four sisters and their dreams."
+    },
+    {
+      "id": "6b71",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSUdkUdF82tUNH8lOQver36jI4MXzawoklGNglbnGUwEPgUORCAWhYX5B3wuMFAo-XK45mqfekEFsIp4jUPz7A5A7geH5iVKRQqHSwiCrR9JROwbrhTcQ09&usqp=CAE",
+      "title": "The House in the Cerulean Sea",
+      "author": "TJ Klune",
+      "description": "A warm story about orphans, magic, and finding your own place in the world."
+    },
+    {
+      "id": "ae34",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSPxlyRg_ihbCKt5MOEOAhLeKlKgqqS4g7tN_p6Xm0sz8MTj9l2EOPcgvwpwL56sy8rhvHI7muOul3bRKP1qnd9Hw81AhkPlBvx6trBxGbH&usqp=CAE",
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "description": "A whimsical story about a brilliant girl and the magic of books."
+    },
+    {
+      "id": "a0d7",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg",
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": " J.K. Rowling",
+      "description": "A sweet, imaginative journey through Willy Wonka’s magical factory."
+    },
+    {
+      "id": "2a14",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRrE6PXM6Geqiq6W5r-2icd28t6R3HkxjRhdtghPxIy-83HDA0vwVYq0v3cPY6GlDF3H-t7zcrvFuaZZvUdh9Ie6w3BA_xqkBCiu-I-u9CbF3lO0sLZZuX6&usqp=CAE",
+      "title": "A Man Called Ove",
+      "author": "Fredrik Backman",
+      "description": "A heartwarming tale about an old curmudgeon and unexpected friendships."
+    },
+    {
+      "id": "0028",
+      "image": "https://nashformat.ua/files/products/before-your-memory-fades-book-3-947655.270x390.jpeg",
+      "title": "Before Your Memory Fades",
+      "author": "Roald Dahl",
+      "description": "Іs an emotional story about the strength, sacrifice, and resilience of two sisters during World War II."
+    },
+    {
+      "id": "0d10",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSZJSnNwGT4k9QzcP-vqOU4oMdweXocKa5LCu7s4lnC3p6tGwKdNNA_-QomgTsjoGAOVIZNGkFxQH8L0CFHSIojzIx4zgx7F6173DVsIoeA1TqXngg9QmJ-eQ",
+      "title": "Nowhere for Very Long",
+      "author": "Brianna Madia",
+      "description": "-"
+    },
+    {
+      "id": "3b8d",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS3DelJfpE4q_XlOUNJq7Dy0yh0xnB4s7v2TCFWyBkj3MDpZquf5FxrsB2bm9xqswJUxpmiQtvyN8-QOAfNH_7yTywDLrVUg_giqxWdVlA",
+      "title": "The Tea Dragon Society",
+      "author": "Katie O’Neill",
+      "description": "A fabulous graphic novel about tea dragons and friendship."
+    },
+    {
+      "id": "fbf5",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTnvnkwjatlIvKnhvFasP0ylT4g3SZYIT0N9ksY_jabbBuXPZwBl58DPFYEbLTXHvHWF63ucXdJ5VIizxGKbRR4XRvYeHE26n3P3qRNDACn2KH50M7HlRYA",
+      "title": "Before the Coffee Gets Cold",
+      "author": "Toshikazu Kawaguchi",
+      "description": "A Japanese story about a coffee shop where you can go back in time."
+    },
+    {
+      "id": "9a5b",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRW5ncChnzmAPh37XXvEHHevEnotd86URPr1YWHRU77K0GWmMnRVmnaWeXo1DB8Y630z4Slaq-0ukMLQtfmLIAbiQk1n0TnhmJTZZQ99ixEeuNjAxlZVkPOEA",
+      "title": "Before We Say Goodbye ",
+      "author": "Toshikazu Kawaguchi",
+      "description": "Іs a touching story about a chance to say the most important words before breaking up."
+    }
+  ],
+  "universe": []
 }

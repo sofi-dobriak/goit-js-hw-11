@@ -1,7 +1,6 @@
 import { carTemplate, carsTemplate } from './render-cars-markup.js';
 import {
   getAllCars,
-  getOneCar,
   createCar,
   updateCar,
   resetCar,
@@ -31,10 +30,14 @@ function handleCreateCar(e) {
     color: e.target.elements.color.value.trim(),
   };
 
-  createCar(carData).then(newCar => {
-    const markup = carTemplate(newCar);
-    refs.carsList.insertAdjacentHTML('afterbegin', markup);
-  });
+  createCar(carData)
+    .then(newCar => {
+      const markup = carTemplate(newCar);
+      refs.carsList.insertAdjacentHTML('afterbegin', markup);
+    })
+    .catch(error => {
+      console.log(error);
+    });
 
   e.target.reset();
 }
@@ -54,13 +57,17 @@ function handleUpdateCar(e) {
     carData[key] = value;
   }
 
-  updateCar(carID, carData).then(newCar => {
-    const markup = carTemplate(newCar);
-    const oldCar = document.querySelector(`[data-id="${carID}"]`);
+  updateCar(carID, carData)
+    .then(newCar => {
+      const markup = carTemplate(newCar);
+      const oldCar = document.querySelector(`[data-id="${carID}"]`);
 
-    oldCar.insertAdjacentHTML('beforebegin', markup);
-    oldCar.remove();
-  });
+      oldCar.insertAdjacentHTML('beforebegin', markup);
+      oldCar.remove();
+    })
+    .catch(error => {
+      console.log(error);
+    });
 
   e.target.reset();
 }
@@ -76,13 +83,17 @@ function handleResetCar(e) {
     carData[key] = value;
   }
 
-  resetCar(carID, carData).then(newCar => {
-    const markup = carTemplate(newCar);
-    const oldCar = document.querySelector(`[data-id="${carID}"]`);
+  resetCar(carID, carData)
+    .then(newCar => {
+      const markup = carTemplate(newCar);
+      const oldCar = document.querySelector(`[data-id="${carID}"]`);
 
-    oldCar.insertAdjacentHTML('beforebegin', markup);
-    oldCar.remove();
-  });
+      oldCar.insertAdjacentHTML('beforebegin', markup);
+      oldCar.remove();
+    })
+    .catch(error => {
+      console.log(error);
+    });
 
   e.target.reset();
 }
@@ -92,15 +103,23 @@ function handleDeleteCar(e) {
 
   const carID = e.target.elements.id.value.trim();
 
-  deleteCar(carID).then(() => {
-    const oldCar = document.querySelector(`[data-id="${carID}"]`);
-    oldCar.remove();
-  });
+  deleteCar(carID)
+    .then(() => {
+      const oldCar = document.querySelector(`[data-id="${carID}"]`);
+      oldCar.remove();
+    })
+    .catch(error => {
+      console.log(error);
+    });
 
   e.target.reset();
 }
 
-getAllCars().then(cars => {
-  const markup = carsTemplate(cars);
-  refs.carsList.innerHTML = markup;
-});
+getAllCars()
+  .then(cars => {
+    const markup = carsTemplate(cars);
+    refs.carsList.innerHTML = markup;
+  })
+  .catch(error => {
+    console.log(error);
+  });
